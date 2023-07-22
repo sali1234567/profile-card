@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/images/bg-pattern-top.svg),  url(/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position:  -250px -500px, 700px 450px;
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;;
+}
+
+.conteiner{
+    background-color: white;
+    height: 400px;
+    width: 370px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.pattern{
+    width: 370px;
+}
+
+.person img{
+    border-radius: 50%;
+    margin: -52px 0 0 130px;
+    border: 5px white solid;
+}
+
+.information{
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+}
+
+.information p :first-child{
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 10px;
+    color: hsl(229, 23%, 23%);
+}
+
+.information p :last-child{
+    color: hsl(0, 0%, 59%);
+}
+
+.information div{
+    margin: 10px 0 25px 0;
+    color: hsl(0, 0%, 59%);
+}
+
+.line{
+    height: 1.2px;
+    background-color: hsl(0, 0%, 90%);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+
+.footer span :first-child{
+    color: hsl(229, 23%, 23%);
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.footer span :last-child{
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    margin-top: 5px;
+    color: hsl(0, 0%, 59%);
+}
